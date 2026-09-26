@@ -1496,4 +1496,851 @@ footer {
         padding: 25px 15px;
     }
 } 
+/* =========================
+   NEW WHITE + BLACK + TEAL THEME
+========================= */
 
+body {
+    background: #ffffff;
+    color: #111827;
+}
+
+/* Navbar */
+header {
+    background: #ffffff;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.logo {
+    color: #0f766e;
+}
+
+.nav-links a {
+    color: #374151;
+}
+
+.nav-links a:hover {
+    color: #0f766e;
+}
+
+/* Section headings */
+section h2 {
+    color: #111827;
+}
+
+section h2::after {
+    background: #0f766e;
+}
+
+.section-title p {
+    color: #0f766e;
+}
+
+.section-title h2 {
+    color: #111827;
+}
+
+/* Home */
+.home-content h4 {
+    color: #0f766e;
+}
+
+.home-content h1 {
+    color: #111827;
+}
+
+.home-content h3 {
+    color: #0f766e;
+}
+
+.home-content p {
+    color: #5b6472;
+}
+
+/* Buttons */
+.btn-primary {
+    background: #0f766e;
+    color: #ffffff;
+}
+
+.btn-primary:hover {
+    background: #115e59;
+}
+
+.btn-outline {
+    border-color: #0f766e;
+    color: #0f766e;
+}
+
+.btn-outline:hover {
+    background: #0f766e;
+    color: #ffffff;
+}
+
+/* Social icons */
+.social-links a {
+    color: #0f766e;
+}
+
+.social-links a:hover {
+    color: #115e59;
+}
+
+/* Home image */
+.home-image img {
+    border-color: #0f766e;
+    box-shadow: 0 0 40px rgba(15, 118, 110, 0.15);
+}
+
+/* About */
+.about,
+.about-content {
+    background: #f8fafc;
+    border-color: #e2e8f0;
+}
+
+.about-image img {
+    border-color: #0f766e;
+    box-shadow: 0 0 35px rgba(15, 118, 110, 0.12);
+}
+
+.about-content h3,
+.about-text h3 {
+    color: #0f766e;
+}
+
+.about-content p,
+.about-text p {
+    color: #5b6472;
+}
+
+/* Education */
+.education-card {
+    background: #f8fafc;
+    border-color: #e2e8f0;
+}
+
+.education-card:hover {
+    border-color: #0f766e;
+}
+
+.education-icon {
+    background: #ccfbf1;
+    color: #0f766e;
+}
+
+.education-text h3 {
+    color: #111827;
+}
+
+.college-name {
+    color: #0f766e;
+}
+
+.education-year {
+    color: #0f766e;
+}
+
+.education-text > p:last-child {
+    color: #5b6472;
+}
+
+/* Experience */
+.experience-card {
+    background: #f8fafc;
+    border-color: #e2e8f0;
+}
+
+.experience-card:hover {
+    border-color: #0f766e;
+}
+
+.experience-icon {
+    background: #ccfbf1;
+    color: #0f766e;
+}
+
+.experience-text h3 {
+    color: #111827;
+}
+
+.company-name {
+    color: #0f766e;
+}
+
+.experience-date {
+    color: #0f766e;
+}
+
+.experience-text ul {
+    color: #5b6472;
+}
+
+/* Skills */
+.skills {
+    background: #f8fafc;
+}
+
+.skill-card {
+    background: #ffffff;
+    border-color: #e2e8f0;
+}
+
+.skill-card:hover {
+    border-color: #0f766e;
+}
+
+.skill-card i {
+    color: #0f766e;
+}
+
+.skill-card h3 {
+    color: #111827;
+}
+
+.skill-card p {
+    color: #5b6472;
+}
+
+/* Projects */
+.project-card {
+    background: #f8fafc;
+    border-color: #e2e8f0;
+}
+
+.project-card:hover {
+    border-color: #0f766e;
+    box-shadow: 0 10px 30px rgba(15, 118, 110, 0.08);
+}
+
+.project-icon {
+    background: #ccfbf1;
+    color: #0f766e;
+}
+
+.project-card h3 {
+    color: #111827;
+}
+
+.project-card p {
+    color: #5b6472;
+}
+
+.project-tech span {
+    background: #ecfdf5;
+    color: #0f766e;
+    border-color: #d1fae5;
+}
+
+.project-link {
+    color: #0f766e;
+}
+
+.project-link:hover {
+    color: #115e59;
+}
+
+/* Contact */
+.contact-wrapper {
+    background: #f8fafc;
+    border-color: #e2e8f0;
+}
+
+.contact-left h3 {
+    color: #111827;
+}
+
+.contact-left > p {
+    color: #5b6472;
+}
+
+.contact-detail i {
+    background: #ccfbf1;
+    color: #0f766e;
+}
+
+.contact-detail span {
+    color: #0f766e;
+}
+
+.contact-detail p {
+    color: #111827;
+}
+
+.contact-detail a {
+    color: #0f766e;
+}
+
+.contact-detail a:hover {
+    color: #115e59;
+}
+
+/* Contact form */
+.contact-form input,
+.contact-form textarea {
+    background: #ffffff;
+    border-color: #e2e8f0;
+    color: #111827;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    border-color: #0f766e;
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+    color: #4f698d;
+}
+
+.contact-detail:hover i {
+    background: #0f766e;
+    color: #ffffff;
+}
+
+/* Footer */
+footer {
+    background: #111827;
+    border-top-color: #e2e8f0;
+}
+
+.footer-content h3 {
+    color: #2dd4bf;
+}
+
+.footer-content > p {
+    color: #cbd5e1;
+}
+
+.footer-social a {
+    border-color: #374151;
+    color: #2dd4bf;
+}
+
+.footer-social a:hover {
+    background: #0f766e;
+    color: #ffffff;
+}
+
+.footer-line {
+    background: #374151;
+}
+
+.copyright {
+    color: #94a3b8;
+}
+/* =========================
+   NEW HOME PAGE DESIGN
+========================= */
+
+.home {
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 60px;
+    max-width: 1200px;
+    margin: auto;
+    padding: 80px 30px;
+    background: #ffffff;
+}
+
+
+/* LEFT SIDE */
+
+.home-text {
+    flex: 1;
+    position: relative;
+    z-index: 2;
+}
+
+.home-text .hello {
+    color: #0f766e;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 12px;
+    letter-spacing: 1px;
+}
+
+.home-text h1 {
+    color: #111827;
+    font-size: 58px;
+    line-height: 1.1;
+    margin-bottom: 12px;
+    font-weight: 700;
+}
+
+.home-text h2 {
+    color: #0f766e;
+    font-size: 25px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.home-text .intro {
+    color: #5b6472;
+    font-size: 17px;
+    line-height: 1.8;
+    max-width: 600px;
+    margin-bottom: 30px;
+}
+
+
+/* BUTTONS */
+
+.home-buttons {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    margin-bottom: 28px;
+}
+
+.home-buttons .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 13px 22px;
+    border-radius: 7px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+
+
+/* View My Work */
+
+.home-buttons .btn-primary {
+    background: #0f766e;
+    color: #ffffff;
+    border: 1px solid #0f766e;
+}
+
+.home-buttons .btn-primary:hover {
+    background: #115e59;
+    transform: translateY(-2px);
+}
+
+
+/* Contact Me */
+
+.home-buttons .btn-outline {
+    background: #ffffff;
+    color: #063733;
+    border: 1px solid #0f766e;
+}
+
+.home-buttons .btn-outline:hover {
+    background: #23857c;
+    color: #ffffff;
+    transform: translateY(-2px);
+}
+
+
+/* Resume */
+
+.home-buttons .btn-resume {
+    background: #0f766e;
+    color: #ffffff;
+    border: 1px solid #111827;
+}
+
+.home-buttons .btn-resume:hover {
+    background: #1b1c1c;
+    border-color: #0f766e;
+    transform: translateY(-2px);
+}
+
+
+/* SOCIAL ICONS */
+
+.social-icons {
+    display: flex;
+    gap: 14px;
+    margin-top: 5px;
+}
+
+.social-icons a {
+    width: 42px;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border: 1px solid #dbe4e2;
+    border-radius: 50%;
+
+    color: #0f766e;
+    background: #ffffff;
+
+    font-size: 19px;
+    text-decoration: none;
+
+    transition: 0.3s ease;
+}
+
+.social-icons a:hover {
+    background: #0f766e;
+    color: #ffffff;
+    border-color: #0f766e;
+    transform: translateY(-3px);
+}
+
+
+/* RIGHT SIDE */
+
+.home-image {
+    flex: 0 0 390px;
+    height: 390px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+
+/* PHOTO CIRCLE */
+
+.image-circle {
+    width: 330px;
+    height: 330px;
+
+    border-radius: 50%;
+    padding: 8px;
+
+    background: #ffffff;
+    border: 3px solid #0f766e;
+
+    position: relative;
+    z-index: 2;
+
+    box-shadow: 0 15px 40px rgba(15, 118, 110, 0.15);
+}
+
+.image-circle img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+    border-radius: 50%;
+
+    display: block;
+}
+
+
+/* DECORATIVE TEAL SHAPE */
+
+.teal-shape {
+    position: absolute;
+
+    width: 250px;
+    height: 250px;
+
+    background: #ccfbf1;
+    border-radius: 50%;
+
+    right: 0;
+    bottom: 5px;
+
+    z-index: 1;
+}
+
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+@media (max-width: 900px) {
+
+    .home {
+        flex-direction: column;
+        text-align: center;
+        padding: 70px 25px;
+        gap: 45px;
+    }
+
+    .home-text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .home-text h1 {
+        font-size: 48px;
+    }
+
+    .home-text h2 {
+        font-size: 22px;
+    }
+
+    .home-text .intro {
+        max-width: 650px;
+    }
+
+    .home-buttons {
+        justify-content: center;
+    }
+
+    .social-icons {
+        justify-content: center;
+    }
+
+    .home-image {
+        flex-basis: auto;
+        width: 350px;
+        height: 350px;
+    }
+
+    .image-circle {
+        width: 290px;
+        height: 290px;
+    }
+
+    .teal-shape {
+        width: 220px;
+        height: 220px;
+    }
+}
+
+
+@media (max-width: 600px) {
+
+    .home {
+        padding: 60px 20px;
+    }
+
+    .home-text h1 {
+        font-size: 40px;
+    }
+
+    .home-text h2 {
+        font-size: 20px;
+    }
+
+    .home-text .intro {
+        font-size: 15px;
+    }
+
+    .home-buttons {
+        flex-direction: column;
+        width: 100%;
+        max-width: 280px;
+    }
+
+    .home-buttons .btn {
+        width: 100%;
+    }
+
+    .home-image {
+        width: 300px;
+        height: 300px;
+    }
+
+    .image-circle {
+        width: 245px;
+        height: 245px;
+    }
+
+    .teal-shape {
+        width: 185px;
+        height: 185px;
+    }
+} 
+/* =========================
+   BIGGER HOME DESIGN
+========================= */
+
+.home {
+    min-height: 92vh;
+    max-width: 1350px;
+    padding: 70px 60px;
+    gap: 90px;
+}
+
+/* Bigger left content */
+
+.home-text {
+    flex: 1.2;
+}
+
+.home-text .hello {
+    font-size: 21px;
+    margin-bottom: 15px;
+}
+
+.home-text h1 {
+    font-size: 70px;
+    line-height: 1.05;
+    margin-bottom: 18px;
+}
+
+.home-text h2 {
+    font-size: 29px;
+    margin-bottom: 25px;
+}
+
+.home-text .intro {
+    font-size: 18px;
+    line-height: 1.9;
+    max-width: 650px;
+    margin-bottom: 35px;
+}
+
+
+/* Bigger buttons */
+
+.home-buttons .btn {
+    padding: 15px 25px;
+    font-size: 16px;
+}
+
+
+/* Bigger social icons */
+
+.social-icons {
+    gap: 16px;
+    margin-top: 10px;
+}
+
+.social-icons a {
+    width: 46px;
+    height: 46px;
+    font-size: 21px;
+}
+
+
+/* Bigger profile area */
+
+.home-image {
+    flex: 0 0 470px;
+    height: 470px;
+}
+
+
+/* Bigger photo */
+
+.image-circle {
+    width: 390px;
+    height: 390px;
+    padding: 9px;
+    border-width: 4px;
+}
+
+
+/* Bigger background circle */
+
+.teal-shape {
+    width: 310px;
+    height: 310px;
+    right: 0;
+    bottom: 0;
+}
+
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+@media (max-width: 1000px) {
+
+    .home {
+        gap: 50px;
+        padding: 70px 35px;
+    }
+
+    .home-text h1 {
+        font-size: 58px;
+    }
+
+    .home-text h2 {
+        font-size: 25px;
+    }
+
+    .home-image {
+        flex: 0 0 400px;
+        height: 400px;
+    }
+
+    .image-circle {
+        width: 330px;
+        height: 330px;
+    }
+
+    .teal-shape {
+        width: 270px;
+        height: 270px;
+    }
+}
+
+
+@media (max-width: 800px) {
+
+    .home {
+        flex-direction: column;
+        text-align: center;
+        padding: 70px 25px;
+    }
+
+    .home-text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .home-text h1 {
+        font-size: 55px;
+    }
+
+    .home-image {
+        width: 400px;
+        height: 400px;
+        flex-basis: auto;
+    }
+
+    .image-circle {
+        width: 330px;
+        height: 330px;
+    }
+
+    .teal-shape {
+        width: 270px;
+        height: 270px;
+    }
+}
+
+
+@media (max-width: 600px) {
+
+    .home {
+        min-height: auto;
+        padding: 60px 20px;
+    }
+
+    .home-text h1 {
+        font-size: 43px;
+    }
+
+    .home-text h2 {
+        font-size: 20px;
+    }
+
+    .home-text .intro {
+        font-size: 15px;
+    }
+
+    .home-image {
+        width: 320px;
+        height: 320px;
+    }
+
+    .image-circle {
+        width: 260px;
+        height: 260px;
+    }
+
+    .teal-shape {
+        width: 210px;
+        height: 210px;
+    }
+}
