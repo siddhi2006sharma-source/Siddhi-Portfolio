@@ -62,45 +62,51 @@
             I enjoy creating simple and useful web projects.
         </p>
 
-       <div class="home-buttons">
+        <div class="home-buttons">
+            <a href="#projects" class="btn btn-primary">
+                View My Work
+            </a>
 
-    <a href="#projects" class="btn">
-        View My Work
-    </a>
+            <a href="#contact" class="btn btn-outline">
+                Contact Me
+            </a>
 
-    <a href="siddhi resume.pdf" class="btn second-btn" target="_blank">
-        View Resume
-    </a>
-
-    <a href="#contact" class="btn second-btn">
-        Contact Me
-    </a>
-
-</div>
+            <a href="Resume siddhu.pdf" class="btn btn-resume" target="_blank">
+                View Resume
+            </a>
+        </div>
 
         <div class="social-icons">
 
-            <!-- LinkedIn -->
-            <a href="https://www.linkedin.com/in/siddhi-sharma-9bb60141a" target="_blank">
-    <i class="fa-brands fa-linkedin"></i>
-</a>
+            <a href="https://www.linkedin.com/in/siddhi-sharma-9bb60141a"
+               target="_blank"
+               rel="noopener noreferrer">
+                <i class="fa-brands fa-linkedin"></i>
+            </a>
 
-            <!-- Email -->
-            <a href="mailto:yourname@gmail.com">
+            <a href="mailto:siddhi2006sharma@gmail.com">
                 <i class="fa-solid fa-envelope"></i>
             </a>
-            <!-- github  -->
-<a href="https://github.com/siddhi2006sharma-source"
-   target="_blank"
-   rel="noopener noreferrer">
-    <i class="fa-brands fa-github"></i>
-</a>
+
+            <a href="https://github.com/siddhi2006sharma-source"
+               target="_blank"
+               rel="noopener noreferrer">
+                <i class="fa-brands fa-github"></i>
+            </a>
+
         </div>
 
     </div>
 
+
     <div class="home-image">
-        <img src="images/profile.jpeg" alt="Siddhi Sharma">
+
+        <div class="image-circle">
+            <img src="images/profile.jpeg" alt="Siddhi Sharma">
+        </div>
+
+        <div class="teal-shape"></div>
+
     </div>
 
 </section>
@@ -542,40 +548,42 @@
         <!-- RIGHT SIDE -->
         <div class="contact-right">
 
-           <form class="contact-form" id="contactForm">
+           <form class="contact-form" name="contact" method="POST" data-netlify="true">
 
     <div class="input-row">
 
-        <input
-            type="text"
-            id="name"
-            placeholder="Your Name"
-            required
-        >
-
-        <input
-            type="email"
-            id="email"
-            placeholder="Email Address"
-            required
-        >
+       <input
+    type="text"
+    id="name"
+    name="name"
+    placeholder="Your Name"
+    required
+>
+       <input
+    type="email"
+    id="email"
+    name="email"
+    placeholder="Email Address"
+    required
+>
 
     </div>
 
-    <!-- Optional URL -->
-    <input
-        type="url"
-        id="website"
-        placeholder="Website URL (Optional)"
-    >
+   <input
+    type="url"
+    id="website"
+    name="website"
+    placeholder="Website URL (Optional)"
+>
 
     <textarea
-        id="message"
-        placeholder="Your Message"
-        required
-    ></textarea>
+    id="message"
+    name="message"
+    placeholder="Your Message"
+    required
+></textarea>
 
-    <button type="submit" class="btn btn-primary">
+     <button type="submit" class="btn btn-primary">
         Send Message
         <i class="fa-solid fa-arrow-right"></i>
     </button>
